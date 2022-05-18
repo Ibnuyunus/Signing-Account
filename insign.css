@@ -1,0 +1,36 @@
+
+        h1{
+            text-align: center;
+            color: white;
+        }
+        h3{
+            text-align: center;
+            color: white;
+        }
+        form{
+            border: 1px solid;
+            width: 300px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: white;
+        }
+        input{
+            width: 300px;
+            margin-bottom: 10px;
+            height: 25px;
+        }
+        button{
+            border: 1.5px solid ;
+            width: 310px;
+            height: 25px;
+            background-color: aquamarine;
+        }
+        p{
+            text-align: center;
+        }
+        body{
+            background-color: fuchsia;
+        }
+        a{
+            color: white;
+        }

@@ -1,0 +1,32 @@
+
+        h1{
+            text-align: center;
+            color: rgb(13, 48, 163);
+        }
+        h4{
+            text-align: center;
+            color: rgb(57, 100, 230);
+        }
+        input{
+            border-color: royalblue;
+            border-radius: 4px;
+        }
+        label{
+            margin: 10px;
+            color: rgb(5, 25, 87);
+        }
+        button{
+            width: 385px;
+            height: 30px;
+            border-radius: 4px;
+            background-color: rgb(5, 25, 87);
+            color: whitesmoke;
+        }
+        form{            
+            margin: 0 auto;
+            border: dashed;
+            border-color: rgb(57, 100, 230);
+            width: 400px;
+            height: 270px;
+        }
+    

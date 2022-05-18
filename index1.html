@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Yusbad</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Signup/index1.css">
+  <script src="js/index.js"></script>
+<body>
+</head>
+	<form action="process.php" method="get" accept-charset="utf-8">
+	  <div class="container">
+     <div class="form-wrap">
+  <h1>MY FIRST OPINION</h1>
+    <label>User Name</label><br>
+    <input type="text" placeholder="input ur name here" id="user"><br>
+    <label>Email</label><br>
+    <input type="text" placeholder="input ur email here..." id="email"><br>
+    <label>Password</label><br>
+    <input type="password" placeholder="input ur password here..." id="pass"><br>
+    <br>
+   <button type="button" onclick="validate()">SUBMIT </button>
+      </div>
+        </div>
+  </form>
+</body>
+  <script type="text/javascript" charset="utf-8">
+    let userEl  =document.getElementById("user")
+    let eMailEl = document.getElementById("email")
+    let passEl =document.getElementById("pass")
+    
+    function validate(){
+   console.log('opinu')
+      if(userEl.value ==""){
+        alert("enter your passcode")
+      }
+      
+      if(passEl.length <=6){
+        alert("password should be 4,6,8 0r 16")
+      }
+    }
+    
+    
+    
+  </script>
+</html>

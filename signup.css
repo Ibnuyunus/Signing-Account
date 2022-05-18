@@ -1,0 +1,50 @@
+        form{
+            margin: 0 auto;
+            border: 1px solid;
+            width: 300px;
+            padding: 30px;
+            background-color: white;
+        }
+        button{
+            border: 1.5px solid ;
+            margin: 10px;
+            width: 300px;
+            height: 25px;
+            background-color: aquamarine;
+        }
+        h1{
+            text-align: center;
+            color: white;
+        }
+        h3{
+            text-align: center;
+            color: white;
+        }
+        input{
+            width: 100%;
+            margin-bottom: 10px;
+            height: 25px;
+        }
+    #agreement{
+        margin: 0px;
+        width: 10px;
+    }
+    p{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .section-1,.section-2{
+        display: inline-block;
+        width: 45%;
+        padding: 30PX;
+    }
+    body{
+        background-color:cyan; 
+    }
+    a{
+        color: greenyellow;
+    }
+    img{
+        height: 350px;
+        margin: 0 auto;
+    }
